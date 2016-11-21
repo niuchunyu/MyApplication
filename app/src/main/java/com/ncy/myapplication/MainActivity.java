@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 		tv.setOnClickListener(new OnClickListener){
 			public void click(View view){
 				Toast.makeText(getApplicationContext,"呵呵",Toast.SHORT).show();
+				Toast.makeText(getApplicationContext,"呵呵",Toast.SHORT).show();
 			}
 		}
     }
