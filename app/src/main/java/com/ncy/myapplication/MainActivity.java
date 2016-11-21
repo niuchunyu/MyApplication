@@ -11,5 +11,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 		tv = (TextView) findViewById(R.id.tv);
+		tv.setOnClickListener(new OnClickListener){
+			public void click(View view){
+				Toast.makeText(getApplicationContext,"呵呵",Toast.SHORT).show();
+			}
+		}
     }
 }
